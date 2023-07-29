@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding-top: 800px;
+
+}
+
+.profile {
+    width: 175px;
+    margin-bottom: 50px;
+    border-radius: 50%;
+
+}
+
+#welcome{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: blueviolet;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradiant;
+    display: table;
+    width: 100%;
+    z-index: 9;
+    height: 100%;
+    
+}
+.menu{
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top: 10px;
+    right: 50px;
+    z-index: 10;
+    cursor: pointer;
+    
+}
+.links{
+    float: left;
+    color: purple;
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    font-family: fantasy;
+    font-size: 20px;
+}
+.links:hover{
+    background-color: palevioletred;
+}
+#name{
+    font-size: 30px;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+
+}
