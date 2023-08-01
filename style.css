@@ -11,7 +11,7 @@ body {
 
 }
 
-#welcome{
+#welcome {
     position: absolute;
     overflow: hidden;
     height: 800px;
@@ -26,9 +26,10 @@ body {
     width: 100%;
     z-index: 9;
     height: 100%;
-    
+
 }
-.menu{
+
+.menu {
     list-style: none;
     font-family: cursive;
     position: absolute;
@@ -36,9 +37,10 @@ body {
     right: 50px;
     z-index: 10;
     cursor: pointer;
-    
+
 }
-.links{
+
+.links {
     float: left;
     color: purple;
     padding-top: 5px;
@@ -48,12 +50,45 @@ body {
     font-family: fantasy;
     font-size: 20px;
 }
-.links:hover{
+
+.links:hover {
     background-color: palevioletred;
 }
-#name{
+
+#name {
     font-size: 30px;
     font-family: 'Lato', sans-serif;
     line-height: 1.2;
+}
+
+a {
+    text-decoration: none;
+}
+
+.article-hover {
+    color: palevioletred;
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
